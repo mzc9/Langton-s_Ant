@@ -1,0 +1,17 @@
+The goal of this assignment is to simulate Langton’s ant, a cellular automaton that follows 
+two simple rules with each step in a matrix of cells.  
+
+These rules that the Ant follows as it traverses the grid are:
+
+◦ If the Ant lands on a white square, Ant turns 90 0  to the right and on leaving that cell, 
+changes the cell to black
+◦ If the Ant lands on a black square, Ant turns 90 0  to the left and on leaving that cell, 
+changes the cell to white
+
+In order for the simulation to run, inputs from the user include:
+
+◦ number of rows and columns for the board used in the simulation
+◦ number of steps that the Ant traverses the grid, with suggestions 
+  to the user that higher number of steps would be optimal to get the 
+  true impact of the simulation
+◦ the starting location of the Ant
