@@ -10,7 +10,7 @@ To implement a simulation of Langton's Ant, showing the
  1) In a white square, ant turns right 90 degrees and changes the square from white to black
  2) In a black square, the ant turn left 90 degrees and changes the square from black to white
  
- #### Input: User-defined:
+#### Input: User-defined:
         (i) Grid size
         (ii) The simulation continues for a user-defined number of steps.
         (iii) Starting location of the ant
@@ -19,6 +19,13 @@ To implement a simulation of Langton's Ant, showing the
     the boundaries.
     Grid cell if black shown with "#", while white is just blank space
    #### Ant is shown as "*"
+
+#### Enhancements to the project that were not in the original specifications include:
+  1) Use of wrap-around option so that the grid appears not to have an edge.  This ensured that the ant could execute the number of steps specified by the user.
+  2) Printing of the grid with each forward movement of the ant, instead of re-rendering the grid each time.  I used ANSI escape codes and created two functions
+     to control the cursor movements.
+  Other enhancements results from the Test Results and are described in the design document.
+
    
 Specifications of the project are given in the specs.txt file.
 
